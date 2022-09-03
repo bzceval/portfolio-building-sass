@@ -2,3 +2,18 @@
 @import './abstracts/mixins', './abstracts/variable';
 @import './components/footer', './components/nav', './components/response';
 @import './pages/about', './pages/contact', './pages/home', './pages/projects';
+
+body {
+    font-family: $font-family;
+    line-height: 1;
+    color: $text-color;
+    background-color: $primary-color;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: $text-color;
+}
+h1, h2, h3 {
+    font-weight: 400;
+}
