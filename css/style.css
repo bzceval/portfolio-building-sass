@@ -125,8 +125,23 @@ footer.vertical .copyright {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+.contact__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 2.5rem;
   font-size: 1.5rem;
+}
+.contact .text-secondary {
+  color: #ff652f;
 }
 
 .home-bgImg-container {
